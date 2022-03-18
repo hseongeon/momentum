@@ -1,0 +1,154 @@
+@import "reset.css";
+
+.hidden {
+  display: none;
+}
+
+body {
+  height: 100vh;
+}
+
+#upper-part {
+  display: flex;
+  height: 60px;
+}
+
+#upper-part-left {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  width: 70%;
+}
+
+#upper-part-right {
+  width: 30%;
+}
+
+#quote span:first-child {
+  color: white;
+  font-size: 24px;
+  font-weight: 800;
+}
+
+#quote span:last-child {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#upper-part-right {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+#weather span:first-child {
+  color: white;
+  font-size: 20px;
+}
+
+#weather span:last-child {
+  color: white;
+  font-size: 20px;
+}
+
+#dummy {
+  width: 12px;
+}
+
+#clock {
+  color: white;
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+#center-part {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-form-text-box {
+  width: 300px;
+  height: 30px;
+  border: 4px solid white;
+  background: transparent;
+  font-size: 20px;
+  color: white;
+  padding: 0px 10px;
+}
+
+#login-form-text-box::placeholder {
+  color: white;
+  text-align: center;
+}
+
+#login-form-btn {
+  cursor: pointer;
+  width: 100px;
+  height: 38px;
+  color: white;
+  font-size: 20px;
+  background: transparent;
+  border: 4px solid white;
+}
+
+#greeting {
+  color: white;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#lower-part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lower-part-form-side {
+  display: flex;
+  justify-content: center;
+}
+
+#todo-form input {
+  width: 300px;
+  height: 30px;
+  border: 4px solid white;
+  background: transparent;
+  font-size: 20px;
+  color: white;
+  padding: 0px 10px;
+}
+
+#todo-form input::placeholder {
+  color: white;
+  text-align: center;
+}
+
+#lower-part-list-side {
+  width: 300px;
+  margin-top: 40px;
+  text-align: right;
+}
+
+#todo-list li {
+  margin-bottom: 8px;
+}
+
+#todo-list li span {
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#todo-list li button {
+  cursor: pointer;
+  margin-left: 10px;
+  width: 40px;
+  height: 26px;
+  color: white;
+  font-size: 20px;
+  background: transparent;
+  border: 2px solid white;
+}
